@@ -4,6 +4,25 @@ This project is part of my journey into learning and understanding how machine l
 
 ---
 
+## Dataset Used
+
+Dataset: **[hospitality_intents_en](https://huggingface.co/datasets/WellaBanda/hospitality_intents_en)**  
+Source: Hugging Face  
+License: MIT  
+Size: 82.4k labeled guest queries
+
+This dataset includes labeled guest queries in English mapped to hospitality-related intents such as **AMENITIES**, **BOOKING**, **FOOD**, **ROOMS**, and more.
+
+---
+
+## Model
+
+Used **TinyBERT** from Hugging Face for transfer learning. The model was chosen for its small size and efficiency, making it ideal for quick iteration and light-weight deployment.
+
+Model link: [prajjwal1/bert-tiny](https://huggingface.co/prajjwal1/bert-tiny)
+
+---
+
 ##  What I Learned
 
 - How to fine-tune transformer models like BERT on custom datasets  
