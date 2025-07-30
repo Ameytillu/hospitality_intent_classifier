@@ -43,11 +43,6 @@ Model link: [prajjwal1/bert-tiny](https://huggingface.co/prajjwal1/bert-tiny)
 
 ---
 
-## Why I Built This
-
-I wanted to see how I could take raw guest queries (like those received by hotel chatbots or customer service) and classify them into **actionable categories** using machine learning. This project helped me solidify my understanding of end-to-end NLP pipeline.
----
-
 ## Future Plans
 
 - Deploying this model using **Streamlit** or **Flask API**  
